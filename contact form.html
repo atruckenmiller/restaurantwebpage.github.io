@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Restaurant</title>
+<link rel="stylesheet" href="/Users/atrucken 1/Desktop/html-css1/Restaurant/restaurantStyles.css">
+</head>
+
+<body>
+  <header>
+  <h1>Front Street Grill</h1>
+</header>
+
+<nav>
+  <hr />
+  <p><a href="home.html">Home</a> <a href="menu.html">Menu</a> <a href="contact.html">Contact</a></p>
+  <hr />
+</nav>
+  <h1>Contact Us</h1>
+  <form action="submit.html" method="POST">
+  <label for="Name">Name:</label> <br />
+  <input type="text" id="Name"><br />
+  <label for="Email">Email:</label> <br />
+  <input type="text" id="Email"><br />
+  <label for="Phone">Phone:</label> <br />
+  <input type="text" id="Phone"><br />
+  <label for "Reason for Inquiry">Reason for Inquiry:</label> <br />
+  <select id="Reason for Inquiry" name="Reason for Inquiry">
+  <option value="default" selected>--Select One--</option>
+  <option value="catering">Catering</option>
+  <option value="private party">Private Party</option>
+  <option value="feedback">Feedback</option>
+  <option value="other">Other</option>
+</select>
+
+<legend>
+<label for="info">Additional Information:</label><br />
+<textarea id="info" name="info" rows="6" colspan="10" placeholder="Enter comments here"></textarea><br  />
+</legend>
+
+<legend>Have you been to the Restaurant?:</legend><br />
+<input type="radio" id="choice1" name="questionnaire" value="yes">
+<label for="choice1">Yes</label><br />
+<input type="radio" id="choice2" name="questionnaire" value="no">
+<label for="choice2">No</label><br />
+</legend>
+
+<legend>Best Days to contact you:</legend><br />
+<input type="checkbox" id="choice1" name="contact" value="Monday">
+<label for="choice1">M</label><br />
+<input type="checkbox" id="choice2" name="contact" value="Tuesday">
+<label for="choice2">Tu</label><br />
+<input type="checkbox" id="choice3" name="contact" value="Wednesday">
+<label for="choice3">W</label><br />
+<input type="checkbox" id="choice4" name="contact" value="Thursday">
+<label for="choice3">Th</label><br />
+<input type="checkbox" id="choice4" name="contact" value="Friday">
+<label for="choice3">F</label><br />
+</legend>
+
+<input type="submit" name="submit" value="Submit">
+
+
+<footer>
+  <hr />
+  <p>Front Street Grill, 123 Front Street Silver Lake, Minnesota, 55309
+     952-341-2028</p>
+  <p>&copy; 2020 All Rights Reserved</p>
+</footer>
+</body>
+</html>
